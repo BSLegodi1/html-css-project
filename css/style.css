@@ -27,16 +27,15 @@ img.elephants {
     text-align: center;
 }
 
-//.articles {
-    //height: 50px;
-    //width: 50px
-//}
-
-.article {
-    display: flex;
+.articles {
+  display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
     
+}
+
+.articles .info {
+    width: 30%;
 }
 .container {
 background-color:green;
