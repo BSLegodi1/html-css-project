@@ -1,33 +1,49 @@
-body{
-  background-color: lightgrey;
+body {
+    background-color: lightgrey;
 }
 
-h1{
-  color:blue;
-  font-size:40px;
-  text-align:center; 
+h1 {
+    color: blue;
+    font-size: 40px;
+    text-align: center;
 }
 
-  h2,h3,h4{
-  color:red;
-  font-size:18px;
-  background-color:white;
-    }
+h2,
+h3,
+h4 {
+    background-color: white;
+    color: red;
+    font-size: 18px;
+}
 
-    .aaa {
- margin-top: 50px; 
-    }
+.aaa {
+    margin-top: 50px;
+}
 
-    img.elephants{
-display:block;      
-margin-left:auto;
-margin-right:auto;
-    }
+img.elephants {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
-    article {
-      display: block; 
-    }
+//.articles {
+    //height: 50px;
+    //width: 50px
+//}
 
-    .copyright-text{
-      text-align: center;
-    }
+.article {
+    display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+    
+}
+.container {
+background-color:green;
+}
+
+
+
+.copyright-text {
+    text-align:center;
+}
