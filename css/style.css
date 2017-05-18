@@ -34,10 +34,15 @@ img.elephants {
     flex-direction: row;
     border: 1px solid black;
     padding: 5px;
+    justify-content: space-around;
 }
 
 .info {
     border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 33%;
 }
 
 .container {
