@@ -39,8 +39,8 @@ img.elephants {
 
 .info {
     border: 1px solid black;
-    display: flex;
-    flex-direction: row;
+   //display: flex;
+  // flex-direction: row;
     justify-content: space-between;
     width: 33%;
 }
